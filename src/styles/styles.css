@@ -86,3 +86,38 @@
 .section-heading {
     border-bottom: 2px solid black;
 }
+
+
+/* Preview*/
+.paper-cont {
+    background-color: white;
+    min-height: 90vh;
+    
+    width: 80%;
+    color: black;
+}
+
+.section-preview {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.section-preview:not(:first-child) > h2{
+    border-bottom: 3px solid black;
+}
+
+.section-preview > h2 {
+    text-align: start;
+}
+
+.horizontal-ul > li:not(:first-child) {
+    margin-left: 30px;
+}
+
+.date-location-cont {
+    min-width: 160px;
+}
+
+.section-card > .content-cont > h3,h4 {
+    margin: 0px;
+}
